@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200pt" height="200pt" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">eMachineSim showcase workflow</title>
+  <desc id="desc">Compact square illustration for eMachineSim showcase workflow, showing a checked sample input file flowing to an analysis result screen.</desc>
+  <defs>
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="copperGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="62%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="240" height="240" fill="none"/>
+  <ellipse cx="120" cy="214" rx="84" ry="10" fill="#0F172A" opacity="0.10"/>
+  <circle cx="118" cy="106" r="78" fill="#FFF7ED" opacity="0.9"/>
+
+  <!-- verified input file -->
+  <g transform="translate(36 64)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="54" height="72" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <path d="M14 20h25M14 34h28M14 48h18" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="43" cy="58" r="13" fill="#16A34A" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M37 58l4 5 9-11" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- arrow and process nodes -->
+  <g transform="translate(96 86)">
+    <path d="M0 26h32" stroke="#B45309" stroke-width="7" stroke-linecap="round"/>
+    <path d="M30 12l21 14-21 14z" fill="#B45309"/>
+    <circle cx="5" cy="58" r="7" fill="#D97706"/>
+    <circle cx="25" cy="58" r="7" fill="#D97706"/>
+    <circle cx="45" cy="58" r="7" fill="#D97706"/>
+    <path d="M5 58h40" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- result monitor -->
+  <g transform="translate(145 72)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="70" height="58" rx="10" fill="#1F2937"/>
+    <rect x="9" y="10" width="52" height="31" rx="4" fill="#FFFFFF"/>
+    <path d="M15 32l9-13 9 10 8-14 12 16" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="19" y="46" width="32" height="5" rx="2.5" fill="#F59E0B"/>
+  </g>
+
+  <!-- analysis result chart -->
+  <g transform="translate(72 145)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="96" height="42" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <path d="M14 29C26 13 39 23 48 17c11-8 18-12 33 6" fill="none" stroke="#B45309" stroke-width="5" stroke-linecap="round"/>
+    <path d="M14 31h68" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="82" cy="22" r="7" fill="url(#copperGrad)"/>
+  </g>
+
+  <!-- small motor result mark -->
+  <g transform="translate(156 148)">
+    <circle cx="28" cy="28" r="22" fill="#1F2937"/>
+    <circle cx="28" cy="28" r="14" fill="url(#copperGrad)"/>
+    <circle cx="28" cy="28" r="6" fill="#FFFFFF"/>
+  </g>
+</svg>
