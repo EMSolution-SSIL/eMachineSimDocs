@@ -16,6 +16,7 @@ eMachineSim focuses on support analyses for electric-machine development, includ
 - BDF/QVOL loss import workflows;
 - coil copper loss and permanent magnet loss inputs;
 - stator/rotor gap thermal coupling diagnostics;
+- matching-mesh periodic boundaries for first-order steady motor thermal sectors;
 - centrifugal-force structural analysis;
 - modal and vibration/NVH support workflows;
 - small electrostatic sample workflows.
